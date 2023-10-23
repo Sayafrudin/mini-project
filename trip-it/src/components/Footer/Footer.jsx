@@ -84,7 +84,7 @@ export default function Footer() {
             </ListGroup>
           </Col>
           <Col lg="3">
-            <h5 className="footer__link-title">Quic Link</h5>
+            <h5 className="footer__link-title">Quick Link</h5>
             <ListGroup className="footer__quick-links">
               {quick__links2.map((item, index) => (
                 <ListGroup.Item as="li" key={index} className="ps-0 border-0">
@@ -96,7 +96,7 @@ export default function Footer() {
             </ListGroup>
           </Col>
           <Col lg="3">
-            <h5 className="footer__link-title">Quic Link</h5>
+            <h5 className="footer__link-title">Address</h5>
             <ListGroup className="footer__quick-links">
               <ListGroup.Item className="ps-0 border-0 d-flex align-item-center gap-3">
                 <h6 className="mb-0 d-flex align-items-center gap-2">
