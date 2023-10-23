@@ -43,28 +43,29 @@ export default function Footer() {
             <div className="logo">
               <img src={logo} alt="" />
               <p>
-                Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
+                Nikmati Petualangan Tanpa Batasan Cuaca bersama Tour Guide
+                Terbaik & Rencanakan Setiap Detail Perjalanan Anda dengan
+                Kustomisasi penuh
               </p>
               <div className="social__links d-flex align-items-center gap-4">
                 <span>
                   <Link to="#">
-                    <i class="ri-youtube-line"></i>
+                    <i className="ri-youtube-line"></i>
                   </Link>
                 </span>
                 <span>
                   <Link to="#">
-                    <i class="ri-instagram-line"></i>
+                    <i className="ri-instagram-line"></i>
                   </Link>
                 </span>
                 <span>
                   <Link to="#">
-                    <i class="ri-facebook-fill"></i>
+                    <i className="ri-facebook-fill"></i>
                   </Link>
                 </span>
                 <span>
                   <Link to="#">
-                    <i class="ri-twitter-x-line"></i>
+                    <i className="ri-twitter-x-line"></i>
                   </Link>
                 </span>
               </div>
@@ -100,7 +101,7 @@ export default function Footer() {
               <ListGroup.Item className="ps-0 border-0 d-flex align-item-center gap-3">
                 <h6 className="mb-0 d-flex align-items-center gap-2">
                   <span>
-                    <i class="ri-map-pin-line"></i>
+                    <i className="ri-map-pin-line"></i>
                   </span>
                   Address :
                 </h6>
@@ -110,7 +111,7 @@ export default function Footer() {
               <ListGroup.Item className="ps-0 border-0 d-flex align-item-center gap-3">
                 <h6 className="mb-0 d-flex align-items-center gap-2">
                   <span>
-                    <i class="ri-mail-line"></i>
+                    <i className="ri-mail-line"></i>
                   </span>
                   Email :
                 </h6>
@@ -120,7 +121,7 @@ export default function Footer() {
               <ListGroup.Item className="ps-0 border-0 d-flex align-item-center gap-3">
                 <h6 className="mb-0 d-flex align-items-center gap-2">
                   <span>
-                    <i class="ri-phone-fill"></i>
+                    <i className="ri-phone-fill"></i>
                   </span>
                   Phone :
                 </h6>
