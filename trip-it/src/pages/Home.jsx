@@ -40,23 +40,23 @@ export default function Home() {
                 </p>
               </div>
             </Col>
-            {/* <Col lg="2">
+            <Col lg="2">
               <div className="hero__img-box">
                 <img src={Img} alt="" />
               </div>
-            </Col> */}
-            <Col lg="6">
-              <div className="hero__img-box mt-3">
+            </Col>
+            <Col lg="2">
+              <div className="hero__img-box mt-4">
                 <video autoPlay loop muted>
                   <source src={Video} type="video/mp4"></source>
                 </video>
               </div>
             </Col>
-            {/* <Col lg="2">
+            <Col lg="2">
               <div className="hero__img-box mt-5">
                 <img src={Img2} alt="" />
               </div>
-            </Col> */}
+            </Col>
           </Row>
         </Container>
       </section>
