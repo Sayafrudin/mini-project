@@ -4,7 +4,8 @@
   margin-bottom: 2.5rem;
 }
 
-.tour__info {
+.tour__info,
+.tour__reviews {
   border-radius: 0.5rem;
   border: 1px solid rgb(229, 231, 235);
   padding: 2rem;
@@ -46,4 +47,78 @@
   line-height: 30px;
   font-size: 1rem;
   color: var(--text-color);
+}
+
+.rating__group button {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  color: orange;
+  gap: 5px;
+  border: none;
+  background: none;
+}
+
+.tour__reviews h4 {
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.reviews__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  border: 1px solid var(--primary-color);
+}
+
+.reviews__input input {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: none;
+}
+
+.reviews__input input:focus {
+  outline: none;
+}
+
+.reviews__item {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.reviews__item img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.reviews__item h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.reviews__item p {
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.reviews__item h6 {
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.reviews__item span i {
+  font-size: 1.2rem;
+  color: orange;
+}
+
+.user__reviews {
+  margin-top: 2.5rem;
 }

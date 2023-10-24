@@ -1,0 +1,13 @@
+.about span i {
+  font-size: 8rem;
+  color: var(--primary-color);
+}
+
+.about h1 {
+  font-size: 3.6rem;
+  font-family: var(--subtitle-font-name);
+}
+
+.about {
+  margin-bottom: 3rem;
+}

@@ -47,7 +47,9 @@ export default function Header() {
           <div className="nav__wrapper d-flex align-items-center justify-content-between">
             {/* LOGO */}
             <div className="logo">
-              <img src={logo} alt=""></img>
+              <Link to="/home">
+                <img src={logo} alt=""></img>
+              </Link>
             </div>
             {/* LOGO */}
 
