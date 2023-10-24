@@ -41,6 +41,6 @@
   position: sticky;
   top: 0;
   left: 0;
-  box-shadow: 3px 3px 8px -3px #ddd;
+  box-shadow: rgba(17, 12, 46, 0.18) 0px 10px 10px 0px;
   z-index: 999;
 }
