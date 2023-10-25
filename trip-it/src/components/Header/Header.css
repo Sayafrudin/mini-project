@@ -24,13 +24,20 @@
 }
 
 .nav__item a.active__link {
-  color: var(--primary-color);
+  color: white !important;
+  background-color: var(--primary-color) !important;
+  padding: 0.3rem 1rem;
+  border-radius: 0.7rem !important;
 }
 
 .mobile__menu {
   font-size: 1.3rem;
   color: var(--heading-color);
   display: none;
+}
+
+.nav__btns span {
+  font-weight: 700;
 }
 
 .sticky__header {
