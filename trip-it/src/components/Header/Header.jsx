@@ -17,6 +17,10 @@ const nav__links = [
     path: "/about",
     display: "About",
   },
+  {
+    path: "/chat",
+    display: "Chat AI",
+  },
 ];
 
 export default function Header() {
