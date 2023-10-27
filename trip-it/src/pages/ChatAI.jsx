@@ -4,7 +4,7 @@ import avatar from "../assets/images/avatar.jpg";
 
 export default function ChatAI() {
   return (
-    <div className="chat__wrapper ">
+    <div className="chat__wrapper">
       <div className="chat__container ">
         <div className="chat__header">Chat AI</div>
         <div className="chat__messages">
