@@ -11,7 +11,7 @@ export default function About() {
           <Col lg="12" className="pt-5 text-center">
             <div className="about">
               <span>
-                <i class="ri-information-fill"></i>
+                <i className="ri-information-fill"></i>
               </span>
               <h1 className="mb-3 fw-semibold">Ini About</h1>
               <Button className="btn primary__btn w-25">
