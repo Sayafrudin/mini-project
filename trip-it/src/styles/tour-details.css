@@ -122,3 +122,32 @@
 .user__reviews {
   margin-top: 2.5rem;
 }
+
+.btn__edit {
+  background-color: orange !important;
+  border-radius: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.btn__update {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.btn__delete {
+  background-color: red;
+  border-radius: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-size: 13px;
+  font-weight: 700;
+}
