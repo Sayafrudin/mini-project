@@ -35,11 +35,6 @@
   font-size: 1.3rem;
 }
 
-.tour__rating .ri-star-fill {
-  color: orange;
-}
-
-.tour__rating i,
 .tour__location i {
   font-size: 1.5rem;
 }
