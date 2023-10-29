@@ -37,8 +37,7 @@ export default function Booking({ tours, avgRating }) {
           ${price} <span>/per orang</span>
         </h3>
         <span className="tour__rating d-flex align-items-center">
-          <i className="ri-star-fill" style={{ color: "orange" }}></i>
-          {avgRating === 0 ? null : avgRating}({reviews?.length})
+          <i className="ri-star-fill" style={{ color: "orange" }}></i>5
         </span>
       </div>
       <div className="booking__form">
