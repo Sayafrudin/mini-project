@@ -1,8 +1,6 @@
 import React from "react";
 import "./../styles/Home.css";
 import { Container, Row, Col } from "react-bootstrap";
-import Img from "../assets/images/hero-img01.jpg";
-import Img2 from "../assets/images/hero-img02.jpg";
 import Video from "../assets/images/video.mp4";
 import worldImg from "../assets/images/world.png";
 import experienceImg from "../assets/images/experience.svg";
@@ -40,21 +38,11 @@ export default function Home() {
                 </p>
               </div>
             </Col>
-            <Col lg="2">
-              <div className="hero__img-box">
-                <img src={Img} alt="" />
-              </div>
-            </Col>
-            <Col lg="2">
+            <Col lg="6">
               <div className="hero__img-box mt-4">
                 <video autoPlay loop muted>
                   <source src={Video} type="video/mp4"></source>
                 </video>
-              </div>
-            </Col>
-            <Col lg="2">
-              <div className="hero__img-box mt-5">
-                <img src={Img2} alt="" />
               </div>
             </Col>
           </Row>
