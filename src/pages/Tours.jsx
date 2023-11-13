@@ -1,8 +1,8 @@
 import React from "react";
-import CommonSection from "../shared/CommonSection";
+import CommonSection from "../components/shared/CommonSection";
 
 import tourData from "../assets/data/tours";
-import TourCard from "../shared/TourCard";
+import TourCard from "../components/shared/TourCard";
 import { Container, Col, Row } from "react-bootstrap";
 
 export default function Tours() {

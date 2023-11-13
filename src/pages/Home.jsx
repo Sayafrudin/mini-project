@@ -4,9 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Video from "../assets/images/video.mp4";
 import worldImg from "../assets/images/world.png";
 import experienceImg from "../assets/images/experience.svg";
-import Subtitle from "../shared/Subtitle";
+import Subtitle from "../components/shared/Subtitle";
 
-import ServiceList from "../services/ServiceList";
+import ServiceList from "../components/services/ServiceList";
 import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
 
 export default function Home() {

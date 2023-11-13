@@ -1,5 +1,5 @@
 import React from "react";
-import TourCard from "../../shared/TourCard";
+import TourCard from "../shared/TourCard";
 import tourData from "../../assets/data/tours";
 import { Col } from "react-bootstrap";
 
