@@ -5,7 +5,7 @@ import avatar from "../assets/images/avatar.jpg";
 
 export default function ChatAI() {
   const openai = new OpenAI({
-    apiKey: "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",
+    apiKey: process.env.REACT_APP_API_KEY,
     dangerouslyAllowBrowser: true,
   });
 
@@ -16,11 +16,17 @@ export default function ChatAI() {
   const AICLick = async () => {
     setLoading(true);
     try {
-      const resp = await openai.completions.create({
-        model: "gpt-3.5-turbo-instruct",
-        prompt: prompt,
+      const resp = await openai.chat.completions.create({
+        model: "gpt-3.5-turbo",
+        messages: prompt,
         temperature: 0.3,
-        max_tokens: 256,
+        max_tokens: 2048,
+        top_p: 1,
+        frequency_penalty: 0,
+        presence_penalty: 0,
+        response_format: {
+          type: "text",
+        },
       });
       setResult(resp.choices[0].text);
     } catch (error) {
