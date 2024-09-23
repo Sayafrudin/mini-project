@@ -5,7 +5,7 @@ import avatar from "../assets/images/avatar.jpg";
 
 export default function ChatAI() {
   const openai = new OpenAI({
-    apiKey: "",
+    apiKey: process.env.REACT_APP_API_KEY,
     dangerouslyAllowBrowser: true,
   });
 
